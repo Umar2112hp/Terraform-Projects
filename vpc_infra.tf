@@ -78,4 +78,5 @@ resource "aws_route_table_association" "appp" {
 resource "aws_route_table_association" "dbb" {
   subnet_id      = aws_subnet.dbb.id
   route_table_id = aws_route_table.pvt.id
+
 }
